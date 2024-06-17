@@ -1,7 +1,7 @@
 import math
 
 # Function to add two numbers
-def add(x, y):
+def sum(x, y):
     return x + y
 
 # Function to subtract two numbers
@@ -63,8 +63,8 @@ def calculator():
     elif choice in ['6', '7', '8']:
         num = float(input("Enter number: "))
 
-    if choice == '1':
-        print(f"{num1} + {num2} = {add(num1, num2)}")
+    if choice == '1':gitgit
+        print(f"{num1} + {num2} = {sum(num1, num2)}")
     elif choice == '2':
         print(f"{num1} - {num2} = {subtract(num1, num2)}")
     elif choice == '3':
